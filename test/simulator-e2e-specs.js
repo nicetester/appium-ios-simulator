@@ -294,6 +294,13 @@ if (!process.env.TRAVIS) {
         device: 'iPhone 5s'
       }
     ];
+  } else if (process.env.DEVICE === '10' || process.env.DEVICE === '10.0') {
+    deviceTypes = [
+      {
+        version: '10.0',
+        device: 'iPhone 5s'
+      }
+    ];
   }
 }
 
